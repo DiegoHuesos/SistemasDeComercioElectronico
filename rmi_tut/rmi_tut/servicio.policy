@@ -1,0 +1,3 @@
+grant codeBase "file:/C:/user/materias/SCE/SimpleRMI/rmi_tut/hola.jar"{
+    permission java.security.AllPermission;
+};

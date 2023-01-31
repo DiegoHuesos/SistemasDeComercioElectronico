@@ -1,0 +1,51 @@
+/* AUTOMATICALLY GENERATED ON Wed Nov 03 16:28:10 CST 2021*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "edit,Remote,entidadesabv01.Category";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "edit,Remote,entidadesabv01.CustomerOrder";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "remove,Remote,entidadesabv01.Product";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "create,Remote,entidadesabv01.Product";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "edit,Remote,entidadesabv01.Product";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "edit,Remote,entidadesabv01.OrderedProduct";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "create,Remote,entidadesabv01.Customer";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "remove,Remote,entidadesabv01.OrderedProduct";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "next_id,Remote,entidadesabv01.Customer";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "create,Remote,entidadesabv01.Category";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "remove,Remote,entidadesabv01.Category";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "create,Remote,entidadesabv01.OrderedProduct";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "edit,Remote,entidadesabv01.Customer";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "remove,Remote,entidadesabv01.CustomerOrder";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "next_id,Remote,entidadesabv01.Category";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "create,Remote,entidadesabv01.CustomerOrder";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "remove,Remote,entidadesabv01.Customer";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "count,Remote,";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "CustomerFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "CategoryFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ProductFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "OrderedProductFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "CustomerOrderFacade", "**";
+};
+

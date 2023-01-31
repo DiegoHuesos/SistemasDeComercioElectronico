@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://148.205.133.142:8080/MiPrimerSitioWeb/WSsumas?WSDL" uri="wsdl/148.205.133.142_8080/MiPrimerSitioWeb/WSsumas.wsdl"/>
+    <system systemId="http://148.205.133.142:8080/MiPrimerSitioWeb/WSsumas?xsd=1" uri="wsdl/148.205.133.142_8080/MiPrimerSitioWeb/WSsumas.xsd_1.xsd"/>
+</catalog>

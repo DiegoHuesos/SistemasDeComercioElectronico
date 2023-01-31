@@ -1,0 +1,33 @@
+/* AUTOMATICALLY GENERATED ON Wed Nov 24 13:46:16 CST 2021*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "EntregaFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CreditoFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibroFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibroFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CreditoFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CreditoFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "EntregaFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EntregaFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CreditoFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "EntregaFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CreditoFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EntregaFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LibroFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "EntregaFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibroFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CreditoFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibroFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "EntregaFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CreditoFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibroFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LibroFacade", "create,Local,java.lang.Object";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "LibroFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "EntregaFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "CreditoFacade", "**";
+};
+

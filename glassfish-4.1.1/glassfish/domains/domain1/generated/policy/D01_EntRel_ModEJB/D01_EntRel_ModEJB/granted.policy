@@ -1,0 +1,34 @@
+/* AUTOMATICALLY GENERATED ON Wed Nov 03 16:25:29 CST 2021*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "MicroMarketFacade", "edit,Remote,entrel.MicroMarket";
+  permission javax.security.jacc.EJBMethodPermission "DiscountCodeFacade", "remove,Remote,entrel.DiscountCode";
+  permission javax.security.jacc.EJBMethodPermission "DiscountCodeFacade", "edit,Remote,entrel.DiscountCode";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "MicroMarketFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "MicroMarketFacade", "remove,Remote,entrel.MicroMarket";
+  permission javax.security.jacc.EJBMethodPermission "DiscountCodeFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "remove,Remote,entrel.Customer";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "edit,Remote,entrel.Customer";
+  permission javax.security.jacc.EJBMethodPermission "MicroMarketFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "DiscountCodeFacade", "create,Remote,entrel.DiscountCode";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "create,Remote,entrel.Customer";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "count,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "MicroMarketFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "MicroMarketFacade", "find,Remote,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "DiscountCodeFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "findRange,Remote,int[]";
+  permission javax.security.jacc.EJBMethodPermission "MicroMarketFacade", "create,Remote,entrel.MicroMarket";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "idMax,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "DiscountCodeFacade", "findAll,Remote,";
+  permission javax.security.jacc.EJBMethodPermission "DiscountCodeFacade", "find,Remote,java.lang.Object";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "CustomerFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "MicroMarketFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "DiscountCodeFacade", "**";
+};
+

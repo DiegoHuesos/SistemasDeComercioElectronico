@@ -1,0 +1,49 @@
+/* AUTOMATICALLY GENERATED ON Thu Oct 28 12:17:38 CDT 2021*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerOrderFacade", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CategoryFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "ProductFacade", "remove,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "CustomerFacade", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "OrderedProductFacade", "findRange,Local,int[]";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "CustomerFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "CategoryFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "OrderedProductFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "ProductFacade", "**";
+  permission javax.security.jacc.EJBRoleRefPermission "CustomerOrderFacade", "**";
+};
+
